@@ -83,6 +83,26 @@
       height: auto;
     }
 
+    .pdf-link {
+      margin: 14px 0 20px;
+      text-align: center;
+    }
+
+    .pdf-link a {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 10px;
+      background: #1f2937;
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .pdf-link a:hover {
+      background: #111827;
+    }
+
     .media-block {
       margin: 22px 0 28px;
     }
@@ -96,7 +116,7 @@
     .media-block video {
       display: block;
       width: 100%;
-      max-width: 750px;   /* visually smaller now */
+      max-width: 750px;
       margin: 0 auto;
       border-radius: 14px;
       box-shadow: 0 10px 26px rgba(0, 0, 0, 0.15);
@@ -136,15 +156,24 @@
 
       <p>
         Two members of the team are civil engineers and, over time, they have begun assisting with connection design.
-        Attached in the original document is a sample of a job they recently completed. They are not yet at the level
-        we ultimately need; however, with focused training over the next one to three months, I believe they can reach
-        the required level of proficiency.
+        Below is a sample project that demonstrates the type of work they are currently performing and the level of
+        development we are building toward.
       </p>
+
+      <div class="pdf-link">
+        <a
+          href="https://pub-8dc55f9db87f4af8add575f598c0037c.r2.dev/video/11257%20-%20Calculations.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+          View sample connection design calculations (PDF)
+        </a>
+      </div>
 
       <h3>Operating Concept</h3>
 
       <p>
-        We would receive the project contract drawings showing end reactions, along with a “rough” structural model—
+        We would receive the project contract drawings showing end reactions, along with a “rough” structural model,
         essentially LOD 300 with columns and beams only and no connections. The Dominican Republic team would perform
         the labor-intensive portion of the connection modeling and preliminary design work. Then, depending on
         workload, one or two senior engineers in the United States would review, finalize, and stamp the calculations
